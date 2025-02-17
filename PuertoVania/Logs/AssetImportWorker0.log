@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32581 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32581 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/UnityProyects/PuertoVania
+D:/GitHub/proyectos/CV/GenericVania/PuertoVania
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52306
-Successfully changed project path to: D:/UnityProyects/PuertoVania
-D:/UnityProyects/PuertoVania
+12425
+Successfully changed project path to: D:/GitHub/proyectos/CV/GenericVania/PuertoVania
+D:/GitHub/proyectos/CV/GenericVania/PuertoVania
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,115 +47,115 @@ D:/UnityProyects/PuertoVania
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14256] Host "[IP] 192.168.1.117 [Port] 0 [Flags] 2 [Guid] 3529228841 [EditorId] 3529228841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ICJ0UU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12920] Host "[IP] 192.168.1.117 [Port] 0 [Flags] 2 [Guid] 1327469404 [EditorId] 1327469404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ICJ0UU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14256] Host "[IP] 192.168.1.117 [Port] 0 [Flags] 2 [Guid] 3529228841 [EditorId] 3529228841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ICJ0UU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12920] Host "[IP] 192.168.1.117 [Port] 0 [Flags] 2 [Guid] 1327469404 [EditorId] 1327469404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ICJ0UU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 113.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 64.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProyects/PuertoVania/Assets
+[Subsystems] Discovering subsystems at path D:/GitHub/proyectos/CV/GenericVania/PuertoVania/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
     Vendor:   NVIDIA
-    VRAM:     12107 MB
-    Driver:   31.0.15.3734
+    VRAM:     12093 MB
+    Driver:   32.0.15.6636
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011461 seconds.
+Registered in 0.004489 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 60.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
+- Completed reload, in  0.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (724ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (431ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (522ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (313ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (333ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (192ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005164 seconds.
+Registered in 0.002757 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProyects\PuertoVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProyects\PuertoVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\proyectos\CV\GenericVania\PuertoVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\proyectos\CV\GenericVania\PuertoVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 59.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.521 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1522ms)
-		BeginReloadAssembly (294ms)
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (1103ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (651ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (337ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4569 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (299.7 KB). Loaded Objects now: 5021.
-Memory consumption went from 172.8 MB to 172.5 MB.
-Total: 2.289600 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.091800 ms MarkObjects: 1.897900 ms  DeleteObjects: 0.121100 ms)
+Unloading 60 unused Assets / (299.5 KB). Loaded Objects now: 5035.
+Memory consumption went from 184.8 MB to 184.5 MB.
+Total: 3.989800 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.206900 ms MarkObjects: 3.259700 ms  DeleteObjects: 0.224100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,265 +169,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 82858.560293 seconds.
-  path: Assets/Halloween2023 GDTV/Scenes/Layout Scene Halloween.unity
-  artifactKey: Guid(22dcf6d1c03920448814bb13113c8cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Scenes/Layout Scene Halloween.unity using Guid(22dcf6d1c03920448814bb13113c8cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebb749ba6c4e52de40d53cc398a7ffa') in 0.014667 seconds 
+  Time since last request: 370916.229193 seconds.
+  path: Assets/Levels/Level 1.unity
+  artifactKey: Guid(ba1658241798c8a40b0f5e63ba2ef6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level 1.unity using Guid(ba1658241798c8a40b0f5e63ba2ef6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afe6c85f44a4e3e4566af9634a6aec2') in 0.016080 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 13.509322 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Candle_1.prefab
-  artifactKey: Guid(8f09da80d17d8f740a3a0b4d0793b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Candle_1.prefab using Guid(8f09da80d17d8f740a3a0b4d0793b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a153d160bc0f0a9f6a8a197c7fca155b') in 0.154369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Candle_Wide_3.prefab
-  artifactKey: Guid(a82b46b83011c104589c9e94e0de87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Candle_Wide_3.prefab using Guid(a82b46b83011c104589c9e94e0de87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a4a5ce985bedfb7afdaf0691cacd81') in 0.019462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Cloud_3.prefab
-  artifactKey: Guid(095469497cc8c7942866b74f6714e61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Cloud_3.prefab using Guid(095469497cc8c7942866b74f6714e61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f74e98107fe1d0dee9f20bf324380d') in 0.265653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Cat.prefab
-  artifactKey: Guid(ee6d2c0cf99afad47a69e9fc065c1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Cat.prefab using Guid(ee6d2c0cf99afad47a69e9fc065c1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2de0165782d5a17ea5e554e9b3113b2') in 0.805232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Cloud_5.prefab
-  artifactKey: Guid(2625a1969c34b504abe3107f37d7e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Cloud_5.prefab using Guid(2625a1969c34b504abe3107f37d7e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ff4433de14dc72deed28e34afddbe7') in 0.021312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.832654 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_2.prefab
-  artifactKey: Guid(ed7b2f217bcb9524898dcef9d2ad541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_2.prefab using Guid(ed7b2f217bcb9524898dcef9d2ad541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58421f92bd04ff6b49cf7d7e31cd1298') in 0.072839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Post_1.prefab
-  artifactKey: Guid(48e4ec4a30e920445bbda22e7f5bdb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Post_1.prefab using Guid(48e4ec4a30e920445bbda22e7f5bdb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d52d558646ab3e26915cc1a1a70a38') in 0.019554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052859 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Post_2.prefab
-  artifactKey: Guid(d97ee5645a484b14f82456959bfa3108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Post_2.prefab using Guid(d97ee5645a484b14f82456959bfa3108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa30a4d975a3b386ad6dc02f91f7523') in 0.025855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Post_4.prefab
-  artifactKey: Guid(fce9bb50a5b26494aa773ef82523b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Post_4.prefab using Guid(fce9bb50a5b26494aa773ef82523b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f5a2426616f12fb77baa262d1b906c') in 0.026821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.569163 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Post_5.prefab
-  artifactKey: Guid(a9a4a142368723c4a81a49d613dd0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Post_5.prefab using Guid(a9a4a142368723c4a81a49d613dd0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021436e6fefde1c6afd2a5ad9bb68d61') in 0.030468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Rail_2.prefab
-  artifactKey: Guid(7b2e8581fb316f24c84b2e72e6f3ab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Rail_2.prefab using Guid(7b2e8581fb316f24c84b2e72e6f3ab13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdb519ec5270046d6d078b655d7dd86') in 0.018247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Grass_1.prefab
-  artifactKey: Guid(18aa026d7dc800a4dbe12d24f2939dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Grass_1.prefab using Guid(18aa026d7dc800a4dbe12d24f2939dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ab4af67aa08b5cfc6c048292daaa19') in 0.032324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Grave_2.prefab
-  artifactKey: Guid(173c279dadb51314eb10b652b9d04baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Grave_2.prefab using Guid(173c279dadb51314eb10b652b9d04baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931e2227e377bbff82677e22f268490f') in 0.039180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Post_8.prefab
-  artifactKey: Guid(357dae979fcb8464b94049954ed52f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Post_8.prefab using Guid(357dae979fcb8464b94049954ed52f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e921bc2c0ef8f4fbe6881038bd0bf61d') in 0.044563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Fence_Rail_1.prefab
-  artifactKey: Guid(60cd4b29ab4ad3f438a09c44ce036896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Fence_Rail_1.prefab using Guid(60cd4b29ab4ad3f438a09c44ce036896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc725ffccf75754b92acd306c7616dbb') in 0.049529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.427555 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Grave_4.prefab
-  artifactKey: Guid(1650e4eb22eb601438b6f08a491c4aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Grave_4.prefab using Guid(1650e4eb22eb601438b6f08a491c4aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64e098fff19e3162c008fcdb6b4591b') in 0.052728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_1_Wide.prefab
-  artifactKey: Guid(bac909858a9446a45943d212fd84b102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_1_Wide.prefab using Guid(bac909858a9446a45943d212fd84b102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bca937e91ebbf1989a1f1db47cfa14') in 0.026573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_1_Tall.prefab
-  artifactKey: Guid(8e09ff257a5bad94483d99902c11108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_1_Tall.prefab using Guid(8e09ff257a5bad94483d99902c11108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b2528202d286e3b2fda860c3c01d62') in 0.025665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_2.prefab
-  artifactKey: Guid(94a084d26c07be74189926c049809389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_2.prefab using Guid(94a084d26c07be74189926c049809389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1073edc94ff7dc59c0e12f577dd140') in 0.026022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_2_Wide.prefab
-  artifactKey: Guid(a6a2f4b4f334a93459c69f8bef4bb642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_2_Wide.prefab using Guid(a6a2f4b4f334a93459c69f8bef4bb642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faf3374a9c68a01630d92d710008742') in 0.027518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_1.prefab
-  artifactKey: Guid(c6a9f9543711a1747b132f6da751351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Jack-o’-lantern_1.prefab using Guid(c6a9f9543711a1747b132f6da751351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f24d1b307c6a3f49290b572ea1a89f') in 0.021687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Ground.prefab
-  artifactKey: Guid(a8e4287faeb72c447b37b12a035bae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Ground.prefab using Guid(a8e4287faeb72c447b37b12a035bae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b144d8b9e64a2a349937cfe8adc08') in 0.033917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.482131 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Moon_HP.prefab
-  artifactKey: Guid(f56e88a773ac240458712da3d343bdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Moon_HP.prefab using Guid(f56e88a773ac240458712da3d343bdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b7a62bc38b27f709849177feb67152') in 0.023505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Pumpkin_Wide.prefab
-  artifactKey: Guid(b0855a50a3940944bbb95a2d2b1c9fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Pumpkin_Wide.prefab using Guid(b0855a50a3940944bbb95a2d2b1c9fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f8aabe2383a8a2da74513185baf971') in 0.019375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Rock_2.prefab
-  artifactKey: Guid(560e65e8671bfd14295ac62d0f7cfdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Rock_2.prefab using Guid(560e65e8671bfd14295ac62d0f7cfdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d781a49ede90e120ca0e39f699340e') in 0.016894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Rock_5.prefab
-  artifactKey: Guid(ac91d8f03c2fd7b41bd92c28c9e88c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Rock_5.prefab using Guid(ac91d8f03c2fd7b41bd92c28c9e88c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d606da7b5edb5a73860e1c6de49e33') in 0.016379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Rock_4.prefab
-  artifactKey: Guid(427ce8fb6b5975b42a4c7588d0e57991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Rock_4.prefab using Guid(427ce8fb6b5975b42a4c7588d0e57991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e887c74b5eea9671ac0126b6118fa9') in 0.013617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.708649 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Rock_11.prefab
-  artifactKey: Guid(9a71cf44a0b520f41aee4103ae2ccd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Rock_11.prefab using Guid(9a71cf44a0b520f41aee4103ae2ccd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78331a9c0dda023a800a9bd73119a1d3') in 0.036145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Tree_2_8K.prefab
-  artifactKey: Guid(067e41ef6de13c647831bca277a4c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Tree_2_8K.prefab using Guid(067e41ef6de13c647831bca277a4c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87aeab5d6ee9d38ad1379ecc7dff2bfb') in 0.016779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Tree_2_4K.prefab
-  artifactKey: Guid(8efd5e7d8989ea344b1552eada97465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Tree_2_4K.prefab using Guid(8efd5e7d8989ea344b1552eada97465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a631f1d6e5beac6ab3a7a1de001d492') in 0.021695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Halloween2023 GDTV/Prefabs/Tree_15K.prefab
-  artifactKey: Guid(58926a59da7b97d47969fd97bd64d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Prefabs/Tree_15K.prefab using Guid(58926a59da7b97d47969fd97bd64d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd7f2a424bfc9159b2e999fc8d15cef') in 0.018074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.408216 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Tree_2_8K.fbx
-  artifactKey: Guid(fd0edc3e32339ff4b8300f593f58caf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Tree_2_8K.fbx using Guid(fd0edc3e32339ff4b8300f593f58caf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ec19283313a0701d75cf573693834a') in 0.069024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Tree_2k.fbx
-  artifactKey: Guid(baec6923a7d6d2746b41780f51eede18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Tree_2k.fbx using Guid(baec6923a7d6d2746b41780f51eede18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b16c40dda167879cf73af61e20bfba2') in 0.028135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Tree_Original.fbx
-  artifactKey: Guid(46dc94bbb37bf4b4b9b951fe520dc8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Tree_Original.fbx using Guid(46dc94bbb37bf4b4b9b951fe520dc8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5a467f8437dd766e59cc03fd6d4991') in 0.018215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.045875 seconds.
-  path: Assets/Halloween2023 GDTV/Materials and Textures/Grave Darker.mat
-  artifactKey: Guid(3c06d015b036c10429c2a48663e79a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Materials and Textures/Grave Darker.mat using Guid(3c06d015b036c10429c2a48663e79a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36606fa5324a8f65e3455a7f9cdc51af') in 0.062554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Materials and Textures/Pumpkin Orange.mat
-  artifactKey: Guid(69a1d08de5f2b4f4b8ddefa151e209e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Materials and Textures/Pumpkin Orange.mat using Guid(69a1d08de5f2b4f4b8ddefa151e209e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d94eb450ff26ba8c1a161cc4d6077c') in 0.014673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.549246 seconds.
-  path: Assets/Halloween2023 GDTV/Materials and Textures/flames cc.png
-  artifactKey: Guid(f9c010a205847c84baf70a470ee92c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Materials and Textures/flames cc.png using Guid(f9c010a205847c84baf70a470ee92c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6bb2eeb27858bdda922aaa044e6c68') in 0.036928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055547 seconds.
-  path: Assets/Halloween2023 GDTV/Materials and Textures/Clouds.mat
-  artifactKey: Guid(d3ef36c7de9ec344b890ea1733fa2922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Materials and Textures/Clouds.mat using Guid(d3ef36c7de9ec344b890ea1733fa2922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4df40ecfd9d32922d13a49b707f053a') in 0.012389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.520463 seconds.
-  path: Assets/Halloween2023 GDTV/Materials and Textures/Candle Wick.mat
-  artifactKey: Guid(5bdec6b40eb36ee40b7fd3e5c6cefc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Materials and Textures/Candle Wick.mat using Guid(5bdec6b40eb36ee40b7fd3e5c6cefc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1748095ed0c77f98e85b3bfffbe709') in 0.014501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.961892 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Candle_3.fbx
-  artifactKey: Guid(4fdeb8f394e272249baa5a79ddf76ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Candle_3.fbx using Guid(4fdeb8f394e272249baa5a79ddf76ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb949524d0a7bc70d252d9350dbc766') in 0.023774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Candle_Wide_3.fbx
-  artifactKey: Guid(79dd9af3c60d7224abd9d0109b9d1472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Candle_Wide_3.fbx using Guid(79dd9af3c60d7224abd9d0109b9d1472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300e36af1f0e72a40c6f0892832270b4') in 0.022129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Cloud_1.fbx
-  artifactKey: Guid(6aa14eea9c6e4374095dec86db8cbfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Cloud_1.fbx using Guid(6aa14eea9c6e4374095dec86db8cbfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d83e82d5c5b3e5685db944da24d86c') in 0.041284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Halloween2023 GDTV/Models/Cloud_5.fbx
-  artifactKey: Guid(e11e27c9c4b83d545ae9d1390e31d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween2023 GDTV/Models/Cloud_5.fbx using Guid(e11e27c9c4b83d545ae9d1390e31d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97431bb5a0b8ff6f34cc17bc41f1a8f1') in 0.046616 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\proyectos\CV\GenericVania\PuertoVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\proyectos\CV\GenericVania\PuertoVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (266.5 KB). Loaded Objects now: 5050.
+Memory consumption went from 183.3 MB to 183.0 MB.
+Total: 2.533000 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.101400 ms MarkObjects: 2.118700 ms  DeleteObjects: 0.130600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
